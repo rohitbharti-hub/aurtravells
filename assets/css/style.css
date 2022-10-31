@@ -77,12 +77,12 @@
 
 ::-moz-selection {
     color: #fff;
-    background: #da2d29
+    background: #820000
 }
 
 ::selection {
     color: #fff;
-    background: #da2d29
+    background: #820000
 }
 
 html {
@@ -534,8 +534,8 @@ ol li {
 }
 
 .btn-theme {
-    background-color: #da2d29;
-    border: 2px solid #da2d29;
+    background-color: #820000;
+    border: 2px solid #820000;
     border-radius: 0px;
     color: #fff
 }
@@ -570,7 +570,7 @@ ol li {
 .btn-theme-solid,
 .btn-theme-outline {
     display: inline-block;
-    border: 2px solid #da2d29;
+    border: 2px solid #820000;
     border-radius: 0px;
     font-size: 1rem;
     font-weight: 500;
@@ -606,7 +606,7 @@ ol li {
 }
 
 .btn-theme-outline:hover {
-    background-color: #da2d29;
+    background-color: #820000;
     color: #fff;
     transition: all 0.3s linear;
     -moz-transition: all 0.3s linear;
@@ -712,7 +712,7 @@ img {
 .sub-title {
     font-size: calc(1rem + 5px);
     font-weight: 600;
-    color: #da2d29
+    color: #820000
 }
 
 @media (max-width: 585px) {
@@ -759,7 +759,7 @@ img {
 }
 
 .c-red {
-    color: #da2d29
+    color: #820000
 }
 
 .c-yellow {
@@ -795,7 +795,7 @@ img {
 }
 
 .c-bg-red {
-    background-color: #da2d29
+    background-color: #820000
 }
 
 .c-bg-yellow {
@@ -913,7 +913,7 @@ ul.disk li:last-child {
 .breadcrumb-area span {
     width: 2.5rem;
     height: 4px;
-    background-color: #da2d29;
+    background-color: #820000;
     display: inline-block
 }
 
@@ -1067,7 +1067,7 @@ textarea.form-control {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    background: #da2d29;
+    background: #820000;
     width: 50px;
     height: 50px;
     display: block;
@@ -1145,7 +1145,7 @@ textarea.form-control {
 }
 
 .custom-header .nav-top .navbar-nav .nav-item .nav-link:hover {
-    color: #da2d29
+    color: #820000
 }
 
 .custom-header .nav-bottom .navbar-nav .nav-item .nav-link {
@@ -1179,7 +1179,7 @@ textarea.form-control {
 }
 
 .custom-header .dropdown-menu .dropdown-item:hover {
-    background-color: #da2d29;
+    background-color: #820000;
     color: #fff
 }
 
@@ -1284,7 +1284,7 @@ textarea.form-control {
 }
 
 .intro_banner .slick-dots li.slick-active button {
-    background-color: #da2d29
+    background-color: #820000
 }
 
 .tollfree-box {
@@ -1519,7 +1519,7 @@ textarea.form-control {
     -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0 20px 30px;
     box-shadow: rgba(0, 0, 0, 0.1) 0 20px 30px;
     padding: 2.2rem;
-    border-top: 5px solid #da2d29
+    border-top: 5px solid #820000
 }
 
 .contact-form .title-head {
@@ -1533,7 +1533,7 @@ textarea.form-control {
     white-space: nowrap;
     min-width: 100%;
     height: 40px;
-    background-color: #000;
+    background-color: #31087B;
     color: #fff;
     overflow: hidden;
 }
