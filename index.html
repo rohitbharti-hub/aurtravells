@@ -1,11 +1,14 @@
-<!doctype html>
-<html lang="en-IN">
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>arutravel</title>
+    <meta charset="utf-8">
+    <title>aru travels</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
+
+    <!-- Favicon -->
     <meta name=keywords content="" />
     <meta name=description content="" />
     <meta property=og:title content="" />
@@ -14,244 +17,720 @@
     <meta property=og:site_name content="" />
 
     <!-- favicon -->
-    <link rel="apple-touch-icon" sizes="57x57" href="assets/img/apple-icon-57x57.png" />
-    <link rel="apple-touch-icon" sizes="60x60" href="assets/img/apple-icon-60x60.png" />
-    <link rel="apple-touch-icon" sizes="72x72" href="assets/img/apple-icon-72x72.png" />
-    <link rel="apple-touch-icon" sizes="76x76" href="assets/img/apple-icon-76x76.png" />
-    <link rel="apple-touch-icon" sizes="114x114" href="assets/img/apple-icon-114x114.png" />
-    <link rel="apple-touch-icon" sizes="120x120" href="assets/img/apple-icon-120x120.png" />
-    <link rel="apple-touch-icon" sizes="144x144" href="assets/img/apple-icon-144x144.png" />
-    <link rel="apple-touch-icon" sizes="152x152" href="assets/img/apple-icon-152x152.png" />
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-icon-180x180.png" />
-    <link rel="icon" type="image/png" sizes="192x192" href="assets/img/android-icon-192x192.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="96x96" href="assets/img/favicon-96x96.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16x16.png" />
+    <link rel="apple-touch-icon" sizes="57x57" href="img/apple-icon-57x57.png" />
+    <link rel="apple-touch-icon" sizes="60x60" href="img/apple-icon-60x60.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="img/apple-icon-72x72.png" />
+    <link rel="apple-touch-icon" sizes="76x76" href="img/apple-icon-76x76.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="img/apple-icon-114x114.png" />
+    <link rel="apple-touch-icon" sizes="120x120" href="img/apple-icon-120x120.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="img/apple-icon-144x144.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="img/apple-icon-152x152.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-icon-180x180.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="img/android-icon-192x192.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="96x96" href="img/favicon-96x96.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png" />
     <meta name="msapplication-TileColor" content="#ffffff" />
     <meta name="theme-color" content="#ffffff" />
-    <link rel="shortcut icon" href="assets/img/favicon.ico" />
+    <link rel="shortcut icon" href="img/favicon.ico" />
 
-    <!-- Css -->
-    <link rel="stylesheet" href="assets/css/icons.css" media="" />
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css" media="" />
-    <link rel="stylesheet" href="assets/css/slick.css" media="" />
-    <link rel="stylesheet" href="assets/css/style.css" media="screen, print" />
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet"> 
 
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
 </head>
 
 <body>
-    <!-- Start Header -->
-    <header class="custom-header" role="header">
-
-        <div class="top-bar c-bg-black p-2">
-            <div class="container">
-                <div class="d-flex justify-content-between">
-                    <div class="topbar-left d-flex justify-content-between">
-                        <p class="c-white"><a href="tel:0123-102-3531" class="c-white"><i class="fa fa-phone text-whited"
-                                    aria-hidden="true"></i> Tollfree: 0123-102-3531</a></p>
-                        <span class="c-white ml-2 mr-2">|</span>
-                        <p class="c-white"><a href="mailto:info@arutravel.com" class="c-white"><i
-                                    class="fa fa-envelope text-whited" aria-hidden="true"> </i> info@arutravel.com</a></p>
-                    </div>
-                    <div class="topbar-right">
-                        <div class="social-icons-subnav">
-                            <a href="https://www.facebook.com/" target="_blank"><span
-                                    class="ti-facebook"></span></a>
-                            <a href="https://www.instagram.com/" target="_blank"><span
-                                    class="ti-instagram"></span></a>
-                            <a href="https://www.linkedin.com/company/" target="_blank"><span
-                                    class="ti-linkedin"></span></a>
-                        </div>
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-light pt-3 d-none d-lg-block">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 text-center text-lg-left mb-2 mb-lg-0">
+                    <div class="d-inline-flex align-items-center">
+                        <p><a href="mailto:support@arutravels.com"><i class="fa fa-envelope mr-2"></i>support@arutravels.com</a></p>
+                        <p class="text-body px-3">|</p>
+                        <p><a href="tel:0123456789"><i class="fa fa-phone-alt mr-2"></i>+012 345 6789</a></p>
                     </div>
                 </div>
-            </div>
-        </div>
-        <nav class="navbar navbar-expand-lg navbar-light nav-top">
-            <a class="navbar-brand" href="index.html">
-                <img src="assets/img/logo.png" alt="logo" class="img-fluid">
-            </a>
-
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
-                aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                <ul class="navbar-nav  ml-auto py-4 py-md-0 cus-align-center">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="about-us.html">About us</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact-us.html">Contact us</a>
-                    </li>
-
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Know more
+                <div class="col-lg-6 text-center text-lg-right">
+                    <div class="d-inline-flex align-items-center">
+                        <a class="text-primary px-3" href="">
+                            <i class="fab fa-facebook-f"></i>
                         </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="terms&conditions.html">Terms & Condition</a>
-                            <a class="dropdown-item" href="privacy-policy.html">Privacy Policy</a>
-                            <a class="dropdown-item" href="#">Sitemap</a>
-                        </div>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="skew btn btn-theme" href="tel:0123-102-3531">
-                            <span class="label">Enquire Now</span>
-                            <span><svg width="30px" height="30px" fill="#fff" xmlns="http://www.w3.org/2000/svg"
-                                    xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512"
-                                    style="enable-background:new 0 0 512 512;" xml:space="preserve">
-                                    <path
-                                        d="M366,396c-5.52,0-10,4.48-10,10c0,5.52,4.48,10,10,10c5.52,0,10-4.48,10-10C376,400.48,371.52,396,366,396z" />
-                                    <path
-                                        d="M390.622,363.663l-47.53-15.84l-17.063-34.127c15.372-15.646,26.045-36.348,29.644-57.941L357.801,243H376
-                                       c16.542,0,30-13.458,30-30v-63C406,67.29,338.71,0,256,0c-82.922,0-150,67.097-150,150v63c0,13.036,8.361,24.152,20,28.28V253
-                                       c0,16.542,13.458,30,30,30h8.782c4.335,9.417,9.946,18.139,16.774,25.974c1.416,1.628,2.893,3.206,4.406,4.741l-17.054,34.108
-                                       l-47.531,15.841C66.112,382.092,26,440.271,26,502c0,5.523,4.477,10,10,10h440c5.522,0,10-4.477,10-10
-                                       C486,440.271,445.889,382.092,390.622,363.663z M386,213c0,5.514-4.486,10-10,10h-15.262c2.542-19.69,4.236-40.643,4.917-61.28
-                                       c0.02-0.582,0.036-1.148,0.054-1.72H386V213z M136,223c-5.514,0-10-4.486-10-10v-53h20.298c0.033,1.043,0.068,2.091,0.107,3.146
-                                       c0.001,0.036,0.003,0.071,0.004,0.107c0,0.003,0,0.006,0,0.009c0.7,20.072,2.372,40.481,4.856,59.737H136V223z M156,263
-                                       c-5.514,0-10-4.486-10-10v-10h8.198l2.128,12.759c0.406,2.425,0.905,4.841,1.482,7.241H156z M146.017,140H126.38
-                                       C131.445,72.979,187.377,20,256,20c68.318,0,124.496,52.972,129.619,120h-19.635c-0.72-55.227-45.693-100-101.033-100h-17.9
-                                       C191.712,40,146.736,84.773,146.017,140z M247.05,60h17.9c44.809,0,81.076,36.651,81.05,81.41c0,3.147-0.025,5.887-0.078,8.38
-                                       c0,0.032-0.001,0.065-0.001,0.098l-12.508-1.787c-33.98-4.852-66.064-20.894-90.342-45.172C241.195,101.054,238.652,100,236,100
-                                       c-26.856,0-52.564,12.236-69.558,32.908C170.63,92.189,205.053,60,247.05,60z M178.54,263c-5.006-16.653-10.734-65.653-12-97.053
-                                       l13.459-17.946c12.361-16.476,31.592-26.713,52.049-27.888c26.917,25.616,61.739,42.532,98.537,47.786l14.722,2.104
-                                       c-0.984,20.885-2.995,41.843-5.876,61.118c-0.001,0.006-0.002,0.013-0.003,0.02c-0.916,6.197-1.638,10.185-3.482,21.324
-                                       c-5.296,31.765-28.998,60.49-60.287,68.313c-12.877,3.215-26.443,3.214-39.313,0c-19.537-4.884-37.451-18.402-49.012-37.778
-                                       h20.386c4.128,11.639,15.243,20,28.28,20h20c16.575,0,30-13.424,30-30c0-16.542-13.458-30-30-30h-20
-                                       c-13.327,0-24.278,8.608-28.297,20H178.54z M235.159,341.016c6.859,1.445,13.852,2.184,20.841,2.184
-                                       c5.471,0,10.943-0.458,16.353-1.346l-17.67,18.687L235.159,341.016z M240.935,375.079l-31.718,33.542
-                                       c-8.732-16.714-16.235-34.109-22.389-51.917l11.911-23.822L240.935,375.079z M311.566,329.494l13.604,27.209
-                                       c-6.164,17.838-13.669,35.239-22.392,51.933l-33.948-33.948L311.566,329.494z M226,273c0-5.521,4.478-10,10-10h20
-                                       c5.514,0,10,4.486,10,10c0,5.522-4.479,10-10,10h-20C230.486,283,226,278.514,226,273z M46.4,492
-                                       c3.963-49.539,36.932-94.567,81.302-109.363l42.094-14.028c7.712,21.325,17.266,42.052,28.463,61.74
-                                       c0.019,0.034,0.037,0.068,0.056,0.101c0,0.001,0.001,0.001,0.001,0.002c8.181,14.389,17.389,28.45,27.372,41.799L237.99,492H46.4z
-                                        M256,483.086l-13.562-21.773c-0.152-0.244-0.314-0.481-0.486-0.711c-8.098-10.802-15.652-22.099-22.532-33.662l35.663-37.714
-                                       l37.578,37.578c-6.926,11.647-14.506,22.991-22.611,33.796C269.56,461.253,270.255,460.224,256,483.086z M274.01,492
-                                       l12.301-19.748c10.027-13.4,19.301-27.574,27.564-42.132c0.05-0.088,0.097-0.178,0.147-0.266c0.006-0.011,0.012-0.021,0.018-0.032
-                                       c11.055-19.5,20.509-40.047,28.164-61.213l42.093,14.028c44.371,14.796,77.34,59.824,81.303,109.363H274.01z" />
-                                    <path d="M435.546,451.531c-6.683-13.377-16.472-25.261-28.309-34.367c-4.378-3.369-10.656-2.55-14.023,1.828
-                                       c-3.368,4.378-2.549,10.656,1.828,14.024c9.454,7.273,17.272,16.766,22.611,27.453c2.473,4.949,8.483,6.941,13.415,4.477
-                                       C436.008,462.478,438.013,456.472,435.546,451.531z" />
-                                </svg> +1-0123-508-5698</span>
-
+                        <a class="text-primary px-3" href="">
+                            <i class="fab fa-twitter"></i>
                         </a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-        <div class="marquee">
-            <ul class="marquee__inner">
-              <li><a href="">All displayed flights fares are subject to change in every 24 hours and may vary by dates, time, arrival city and Departure city needs to be changed to All displayed flights fares are subject to change as per the live availability in the airline system and may vary by dates, time, arrival city and Departure city.</a></li>
-            </ul>
-          </div>
-    </header>
-    <!-- Start End -->
-
-
-    <main class="m-wrapper" role="content-container">
-
-        <!-- Banner -->
-        <div class="slick-carousel intro_banner">
-            <div>
-                <div class="slide-content"><img src="assets/img/banner/Banner1.jpg"></div>
-            </div>
-            <div>
-                <div class="slide-content"><img src="assets/img/banner/Banner2.jpg"></div>
-            </div>
-            <div>
-                <div class="slide-content"><img src="assets/img/banner/Banner3.jpg"></div>
-            </div>
-        </div>
-
-        <!--product-->
-
-        <section class="sec-gap">
-            <div class="container">
-                <h2 class="mb-5 text-center">Our Core Values</h2>
-                <div class="row">
-                    <div class="col-lg-3">
-                        <div class="text-center">
-                            <img src="assets/img/best-price.png" alt="Solar Panel">
-                            <h5 class="mb-2">We guarantee you with lowest price Flights Tickets.</h5>
-                        </div>
+                        <a class="text-primary px-3" href="">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a class="text-primary px-3" href="">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a class="text-primary pl-3" href="">
+                            <i class="fab fa-youtube"></i>
+                        </a>
                     </div>
-
-                    <div class="col-lg-3">
-                        <div class="text-center">
-                            <img src="assets/img/24-7-support.png" alt="ups batteries">
-                            <h5 class="mb-2">24/7 service just a call away.Be served by travel agents that know.</h5>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3">
-                        <div class="text-center">
-                            <img src="assets/img/combin-save.png" alt="car speaker">
-                            <h5 class="mb-2">Easy Flight Search & Hassle Free Online Booking in minutes.</h5>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3">
-                        <div class="text-center">
-                            <img src="assets/img/paymentsecure.png" alt="car speaker">
-                            <h5 class="mb-2">We support all payment methods with 100% Secure Payment Method. </h5>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Tollfree -->
-
-        <div class="tollfree-box sec-gap text-center">
-            <h2 class="txt-1 text-white"><strong>Everything is just a call away,</strong> For Any Assistance</h2>
-            <a href="tel:1234-102-3531" class="btn skew btn-theme mt-3"><i class="fa fa-phone" aria-hidden="true"></i>
-                01234-102-3531</a>
-        </div>
-
-
-    </main>
-
-
-    <!-- footer -->
-    <footer class="footer" role="Footer">
-        <div class="footercopyright" role="Copyright Footer">
-            <div class="container">
-                <p>All Rights Reserved <span class="text-whited">AURTRAVELS</span> &#169; 2022</p>
-            </div>
-        </div>
-    </footer>
-
-    <!-- Modal -->
-    <div class="modal fade" id="u_cons" tabindex="-1" role="dialog" aria-labelledby="u_cons" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLongTitle">Coming soon...</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
                 </div>
             </div>
         </div>
     </div>
+    <!-- Topbar End -->
 
-    <!-- Return to Top -->
-    <a href="javascript:void(0);" id="return-to-top"><i class="fa fa-angle-up"></i></a>
 
-    <!-- js-->
-    <script src="assets/js/jquery.min.js" type="text/javascript"></script>
-    <script src="assets/js/popper.min.js" type="text/javascript"></script>
-    <script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
-    <script src="assets/js/slick.min.js" type="text/javascript"></script>
-    <script src="assets/js/main.js" type="text/javascript"></script>
+    <!-- Navbar Start -->
+    <div class="container-fluid position-relative nav-bar p-0">
+        <div class="container-lg position-relative p-0 px-lg-3" style="z-index: 9;">
+            <nav class="navbar navbar-expand-lg bg-light navbar-light shadow-lg py-3 py-lg-0 pl-3 pl-lg-5">
+                <a href="index.html" class="navbar-brand">
+                    <img src="img/logo.png" alt="logo" class="img-fluid">
+                </a>
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-between px-3" id="navbarCollapse">
+                    <div class="navbar-nav ml-auto py-0">
+                        <a href="index.html" class="nav-item nav-link active">Home</a>
+                        <a href="about.html" class="nav-item nav-link">About</a>
+                        <a href="service.html" class="nav-item nav-link">Services</a>
+                        <a href="package.html" class="nav-item nav-link">Tour Packages</a>
+                        
+                        <a href="contact.html" class="nav-item nav-link">Contact</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Navbar End -->
+
+
+    <!-- Carousel Start -->
+    <div class="container-fluid p-0">
+        <div id="header-carousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="w-100" src="img/static/carousel-1.jpg" alt="Image">
+                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                        <div class="p-3" style="max-width: 900px;">
+                            <h4 class="text-white text-uppercase mb-md-3">Tours & Travel</h4>
+                            <h1 class="display-3 text-white mb-md-4">Let's Discover The World Together</h1>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="w-100" src="img/static/carousel-2.jpg" alt="Image">
+                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                        <div class="p-3" style="max-width: 900px;">
+                            <h4 class="text-white text-uppercase mb-md-3">Tours & Travel</h4>
+                            <h1 class="display-3 text-white mb-md-4">Discover Amazing Places With Us</h1>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#header-carousel" data-slide="prev">
+                <div class="btn btn-dark" style="width: 45px; height: 45px;">
+                    <span class="carousel-control-prev-icon mb-n2"></span>
+                </div>
+            </a>
+            <a class="carousel-control-next" href="#header-carousel" data-slide="next">
+                <div class="btn btn-dark" style="width: 45px; height: 45px;">
+                    <span class="carousel-control-next-icon mb-n2"></span>
+                </div>
+            </a>
+        </div>
+    </div>
+    <!-- Carousel End -->
+
+
+    <!-- Booking Start -->
+    <div class="container-fluid booking mt-5 pb-5">
+        <div class="container pb-5">
+            <div class="bg-light shadow" style="padding: 30px;">
+                <div class="row align-items-center" style="min-height: 60px;">
+                    <div class="col-md-10">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="mb-3 mb-md-0">
+                                    <select class="custom-select px-4" style="height: 47px;">
+                                        <option selected>Destination</option>
+                                        <option value="1">Destination 1</option>
+                                        <option value="2">Destination 1</option>
+                                        <option value="3">Destination 1</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="mb-3 mb-md-0">
+                                    <div class="date" id="date1" data-target-input="nearest">
+                                        <input type="text" class="form-control p-4 datetimepicker-input" placeholder="Depart Date" data-target="#date1" data-toggle="datetimepicker"/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="mb-3 mb-md-0">
+                                    <div class="date" id="date2" data-target-input="nearest">
+                                        <input type="text" class="form-control p-4 datetimepicker-input" placeholder="Return Date" data-target="#date2" data-toggle="datetimepicker"/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="mb-3 mb-md-0">
+                                    <select class="custom-select px-4" style="height: 47px;">
+                                        <option selected>Duration</option>
+                                        <option value="1">Duration 1</option>
+                                        <option value="2">Duration 1</option>
+                                        <option value="3">Duration 1</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <button class="btn btn-primary btn-block" type="submit" style="height: 47px; margin-top: -2px;">Submit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+      <!-- Booking End -->
+
+
+    <!-- About Start -->
+    <div class="container-fluid py-5">
+        <div class="container pt-5">
+            <div class="row">
+                <div class="col-lg-6" style="min-height: 500px;">
+                    <div class="position-relative h-100">
+                        <img class="position-absolute w-100 h-100" src="img/static/about.jpg" style="object-fit: cover;">
+                    </div>
+                </div>
+                <div class="col-lg-6 pt-5 pb-lg-5">
+                    <div class="about-text bg-white p-4 p-lg-5 my-lg-5">
+                        <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">About Us</h6>
+                        <h1 class="mb-3">We Provide Best Tour Packages In Your Budget</h1>
+                        <p>Dolores lorem lorem ipsum sit et ipsum. Sadip sea amet diam dolore sed et. Sit rebum labore sit sit ut vero no sit. Et elitr stet dolor sed sit et sed ipsum et kasd ut. Erat duo eos et erat sed diam duo</p>
+                        <div class="row mb-4">
+                            <div class="col-6">
+                                <img class="img-fluid" src="img/static/about-1.jpg" alt="">
+                            </div>
+                            <div class="col-6">
+                                <img class="img-fluid" src="img/static/about-2.jpg" alt="">
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+
+    <!-- Feature Start -->
+    <div class="container-fluid pb-5">
+        <div class="container pb-5">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="d-flex mb-4 mb-lg-0">
+                        <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-primary mr-3" style="height: 100px; width: 100px;">
+                            <i class="fa fa-2x fa-money-check-alt text-white"></i>
+                        </div>
+                        <div class="d-flex flex-column">
+                            <h5 class="">Competitive Pricing</h5>
+                            <p class="m-0">Magna sit magna dolor duo dolor labore rebum amet elitr est diam sea</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="d-flex mb-4 mb-lg-0">
+                        <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-primary mr-3" style="height: 100px; width: 100px;">
+                            <i class="fa fa-2x fa-award text-white"></i>
+                        </div>
+                        <div class="d-flex flex-column">
+                            <h5 class="">Best Services</h5>
+                            <p class="m-0">Magna sit magna dolor duo dolor labore rebum amet elitr est diam sea</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="d-flex mb-4 mb-lg-0">
+                        <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-primary mr-3" style="height: 100px; width: 100px;">
+                            <i class="fa fa-2x fa-globe text-white"></i>
+                        </div>
+                        <div class="d-flex flex-column">
+                            <h5 class="">Worldwide Coverage</h5>
+                            <p class="m-0">Magna sit magna dolor duo dolor labore rebum amet elitr est diam sea</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Feature End -->
+
+
+    <!-- Destination Start -->
+    <div class="container-fluid py-5">
+        <div class="container pt-5 pb-3">
+            <div class="text-center mb-3 pb-3">
+                <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">Destination</h6>
+                <h1>Explore Top Destination</h1>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="destination-item position-relative overflow-hidden mb-2">
+                        <img class="img-fluid" src="img/static/destination-1.jpg" alt="">
+                        <a class="destination-overlay text-white text-decoration-none" href="">
+                            <h5 class="text-white">United States</h5>
+                            <span>100 Cities</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="destination-item position-relative overflow-hidden mb-2">
+                        <img class="img-fluid" src="img/static/destination-2.jpg" alt="">
+                        <a class="destination-overlay text-white text-decoration-none" href="">
+                            <h5 class="text-white">United Kingdom</h5>
+                            <span>100 Cities</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="destination-item position-relative overflow-hidden mb-2">
+                        <img class="img-fluid" src="img/static/destination-3.jpg" alt="">
+                        <a class="destination-overlay text-white text-decoration-none" href="">
+                            <h5 class="text-white">Australia</h5>
+                            <span>100 Cities</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="destination-item position-relative overflow-hidden mb-2">
+                        <img class="img-fluid" src="img/static/destination-4.jpg" alt="">
+                        <a class="destination-overlay text-white text-decoration-none" href="">
+                            <h5 class="text-white">India</h5>
+                            <span>100 Cities</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="destination-item position-relative overflow-hidden mb-2">
+                        <img class="img-fluid" src="img/static/destination-5.jpg" alt="">
+                        <a class="destination-overlay text-white text-decoration-none" href="">
+                            <h5 class="text-white">South Africa</h5>
+                            <span>100 Cities</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="destination-item position-relative overflow-hidden mb-2">
+                        <img class="img-fluid" src="img/static/destination-6.jpg" alt="">
+                        <a class="destination-overlay text-white text-decoration-none" href="">
+                            <h5 class="text-white">Indonesia</h5>
+                            <span>100 Cities</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Destination Start -->
+
+
+    <!-- Service Start -->
+    <div class="container-fluid py-5">
+        <div class="container pt-5 pb-3">
+            <div class="text-center mb-3 pb-3">
+                <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">Services</h6>
+                <h1>Tours & Travel Services</h1>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="service-item bg-white text-center mb-2 py-5 px-4">
+                        <i class="fa fa-2x fa-route mx-auto mb-4"></i>
+                        <h5 class="mb-2">Travel Guide</h5>
+                        <p class="m-0">Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem est amet labore</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="service-item bg-white text-center mb-2 py-5 px-4">
+                        <i class="fa fa-2x fa-ticket-alt mx-auto mb-4"></i>
+                        <h5 class="mb-2">Ticket Booking</h5>
+                        <p class="m-0">Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem est amet labore</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="service-item bg-white text-center mb-2 py-5 px-4">
+                        <i class="fa fa-2x fa-hotel mx-auto mb-4"></i>
+                        <h5 class="mb-2">Hotel Booking</h5>
+                        <p class="m-0">Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem est amet labore</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Service End -->
+
+
+    <!-- Packages Start -->
+    <div class="container-fluid py-5">
+        <div class="container pt-5 pb-3">
+            <div class="text-center mb-3 pb-3">
+                <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">Packages</h6>
+                <h1>Pefect Tour Packages</h1>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="package-item bg-white mb-2">
+                        <img class="img-fluid" src="img/static/package-1.jpg" alt="">
+                        <div class="p-4">
+                            <div class="d-flex justify-content-between mb-3">
+                                <small class="m-0"><i class="fa fa-map-marker-alt text-primary mr-2"></i>Thailand</small>
+                                <small class="m-0"><i class="fa fa-calendar-alt text-primary mr-2"></i>3 days</small>
+                                <small class="m-0"><i class="fa fa-user text-primary mr-2"></i>2 Person</small>
+                            </div>
+                            <a class="h5 text-decoration-none" href="">Discover amazing places of the world with us</a>
+                            <div class="border-top mt-4 pt-4">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="m-0"><i class="fa fa-star text-primary mr-2"></i>4.5 <small>(250)</small></h6>
+                                    <h5 class="m-0">$350</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="package-item bg-white mb-2">
+                        <img class="img-fluid" src="img/static/package-2.jpg" alt="">
+                        <div class="p-4">
+                            <div class="d-flex justify-content-between mb-3">
+                                <small class="m-0"><i class="fa fa-map-marker-alt text-primary mr-2"></i>Thailand</small>
+                                <small class="m-0"><i class="fa fa-calendar-alt text-primary mr-2"></i>3 days</small>
+                                <small class="m-0"><i class="fa fa-user text-primary mr-2"></i>2 Person</small>
+                            </div>
+                            <a class="h5 text-decoration-none" href="">Discover amazing places of the world with us</a>
+                            <div class="border-top mt-4 pt-4">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="m-0"><i class="fa fa-star text-primary mr-2"></i>4.5 <small>(250)</small></h6>
+                                    <h5 class="m-0">$350</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="package-item bg-white mb-2">
+                        <img class="img-fluid" src="img/static/package-3.jpg" alt="">
+                        <div class="p-4">
+                            <div class="d-flex justify-content-between mb-3">
+                                <small class="m-0"><i class="fa fa-map-marker-alt text-primary mr-2"></i>Thailand</small>
+                                <small class="m-0"><i class="fa fa-calendar-alt text-primary mr-2"></i>3 days</small>
+                                <small class="m-0"><i class="fa fa-user text-primary mr-2"></i>2 Person</small>
+                            </div>
+                            <a class="h5 text-decoration-none" href="">Discover amazing places of the world with us</a>
+                            <div class="border-top mt-4 pt-4">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="m-0"><i class="fa fa-star text-primary mr-2"></i>4.5 <small>(250)</small></h6>
+                                    <h5 class="m-0">$350</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="package-item bg-white mb-2">
+                        <img class="img-fluid" src="img/static/package-4.jpg" alt="">
+                        <div class="p-4">
+                            <div class="d-flex justify-content-between mb-3">
+                                <small class="m-0"><i class="fa fa-map-marker-alt text-primary mr-2"></i>Thailand</small>
+                                <small class="m-0"><i class="fa fa-calendar-alt text-primary mr-2"></i>3 days</small>
+                                <small class="m-0"><i class="fa fa-user text-primary mr-2"></i>2 Person</small>
+                            </div>
+                            <a class="h5 text-decoration-none" href="">Discover amazing places of the world with us</a>
+                            <div class="border-top mt-4 pt-4">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="m-0"><i class="fa fa-star text-primary mr-2"></i>4.5 <small>(250)</small></h6>
+                                    <h5 class="m-0">$350</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="package-item bg-white mb-2">
+                        <img class="img-fluid" src="img/static/package-5.jpg" alt="">
+                        <div class="p-4">
+                            <div class="d-flex justify-content-between mb-3">
+                                <small class="m-0"><i class="fa fa-map-marker-alt text-primary mr-2"></i>Thailand</small>
+                                <small class="m-0"><i class="fa fa-calendar-alt text-primary mr-2"></i>3 days</small>
+                                <small class="m-0"><i class="fa fa-user text-primary mr-2"></i>2 Person</small>
+                            </div>
+                            <a class="h5 text-decoration-none" href="">Discover amazing places of the world with us</a>
+                            <div class="border-top mt-4 pt-4">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="m-0"><i class="fa fa-star text-primary mr-2"></i>4.5 <small>(250)</small></h6>
+                                    <h5 class="m-0">$350</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="package-item bg-white mb-2">
+                        <img class="img-fluid" src="img/static/package-6.jpg" alt="">
+                        <div class="p-4">
+                            <div class="d-flex justify-content-between mb-3">
+                                <small class="m-0"><i class="fa fa-map-marker-alt text-primary mr-2"></i>Thailand</small>
+                                <small class="m-0"><i class="fa fa-calendar-alt text-primary mr-2"></i>3 days</small>
+                                <small class="m-0"><i class="fa fa-user text-primary mr-2"></i>2 Person</small>
+                            </div>
+                            <a class="h5 text-decoration-none" href="">Discover amazing places of the world with us</a>
+                            <div class="border-top mt-4 pt-4">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="m-0"><i class="fa fa-star text-primary mr-2"></i>4.5 <small>(250)</small></h6>
+                                    <h5 class="m-0">$350</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Packages End -->
+
+
+    <!-- Registration Start -->
+    <div class="container-fluid bg-registration py-5" style="margin: 90px 0;">
+        <div class="container py-5">
+            <div class="row align-items-center">
+                <div class="col-lg-7 mb-5 mb-lg-0">
+                    <div class="mb-4">
+                        <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">Mega Offer</h6>
+                        <h1 class="text-white"><span class="text-primary">30% OFF</span> For Honeymoon</h1>
+                    </div>
+                    <p class="text-white">Invidunt lorem justo sanctus clita. Erat lorem labore ea, justo dolor lorem ipsum ut sed eos,
+                        ipsum et dolor kasd sit ea justo. Erat justo sed sed diam. Ea et erat ut sed diam sea ipsum est
+                        dolor</p>
+                    <ul class="list-inline text-white m-0">
+                        <li class="py-2"><i class="fa fa-check text-primary mr-3"></i>Labore eos amet dolor amet diam</li>
+                        <li class="py-2"><i class="fa fa-check text-primary mr-3"></i>Etsea et sit dolor amet ipsum</li>
+                        <li class="py-2"><i class="fa fa-check text-primary mr-3"></i>Diam dolor diam elitripsum vero.</li>
+                    </ul>
+                </div>
+                <div class="col-lg-5">
+                    <div class="card border-0">
+                        <div class="card-header bg-primary text-center p-4">
+                            <h1 class="text-white m-0">Sign Up Now</h1>
+                        </div>
+                        <div class="card-body rounded-bottom bg-white p-5">
+                            <form>
+                                <div class="form-group">
+                                    <input type="text" class="form-control p-4" placeholder="Your name" required="required" />
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control p-4" placeholder="Your email" required="required" />
+                                </div>
+                                <div class="form-group">
+                                    <select class="custom-select px-4" style="height: 47px;">
+                                        <option selected>Select a destination</option>
+                                        <option value="1">destination 1</option>
+                                        <option value="2">destination 1</option>
+                                        <option value="3">destination 1</option>
+                                    </select>
+                                </div>
+                                <div>
+                                    <button class="btn btn-primary btn-block py-3" type="submit">Sign Up Now</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Registration End -->
+
+
+    <!-- Team Start -->
+    <div class="container-fluid py-5">
+        <div class="container pt-5 pb-3">
+            <div class="text-center mb-3 pb-3">
+                <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">Guides</h6>
+                <h1>Our Travel Guides</h1>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-4 col-sm-6 pb-2">
+                    <div class="team-item bg-white mb-4">
+                        <div class="team-img position-relative overflow-hidden">
+                            <img class="img-fluid w-100" src="img/static/team-1.jpg" alt="">
+                            <div class="team-social">
+                                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-instagram"></i></a>
+                                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center py-4">
+                            <h5 class="text-truncate">Guide Name</h5>
+                            <p class="m-0">Designation</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 pb-2">
+                    <div class="team-item bg-white mb-4">
+                        <div class="team-img position-relative overflow-hidden">
+                            <img class="img-fluid w-100" src="img/static/team-2.jpg" alt="">
+                            <div class="team-social">
+                                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-instagram"></i></a>
+                                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center py-4">
+                            <h5 class="text-truncate">Guide Name</h5>
+                            <p class="m-0">Designation</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 pb-2">
+                    <div class="team-item bg-white mb-4">
+                        <div class="team-img position-relative overflow-hidden">
+                            <img class="img-fluid w-100" src="img/static/team-3.jpg" alt="">
+                            <div class="team-social">
+                                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-instagram"></i></a>
+                                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center py-4">
+                            <h5 class="text-truncate">Guide Name</h5>
+                            <p class="m-0">Designation</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 pb-2">
+                    <div class="team-item bg-white mb-4">
+                        <div class="team-img position-relative overflow-hidden">
+                            <img class="img-fluid w-100" src="img/static/team-4.jpg" alt="">
+                            <div class="team-social">
+                                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-instagram"></i></a>
+                                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center py-4">
+                            <h5 class="text-truncate">Guide Name</h5>
+                            <p class="m-0">Designation</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Team End -->
+
+
+    <!-- Testimonial Start -->
+    <div class="container-fluid py-5">
+        <div class="container py-5">
+            <div class="text-center mb-3 pb-3">
+                <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">Testimonial</h6>
+                <h1>What Say Our Clients</h1>
+            </div>
+            <div class="owl-carousel testimonial-carousel">
+                <div class="text-center pb-4">
+                    <img class="img-fluid mx-auto" src="img/static/testimonial-1.jpg" style="width: 100px; height: 100px;" >
+                    <div class="testimonial-text bg-white p-4 mt-n5">
+                        <p class="mt-5">Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam
+                        </p>
+                        <h5 class="text-truncate">Client Name</h5>
+                        <span>Profession</span>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <img class="img-fluid mx-auto" src="img/static/testimonial-2.jpg" style="width: 100px; height: 100px;" >
+                    <div class="testimonial-text bg-white p-4 mt-n5">
+                        <p class="mt-5">Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam
+                        </p>
+                        <h5 class="text-truncate">Client Name</h5>
+                        <span>Profession</span>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <img class="img-fluid mx-auto" src="img/static/testimonial-3.jpg" style="width: 100px; height: 100px;" >
+                    <div class="testimonial-text bg-white p-4 mt-n5">
+                        <p class="mt-5">Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam
+                        </p>
+                        <h5 class="text-truncate">Client Name</h5>
+                        <span>Profession</span>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <img class="img-fluid mx-auto" src="img/static/testimonial-4.jpg" style="width: 100px; height: 100px;" >
+                    <div class="testimonial-text bg-white p-4 mt-n5">
+                        <p class="mt-5">Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam
+                        </p>
+                        <h5 class="text-truncate">Client Name</h5>
+                        <span>Profession</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Testimonial End -->
+
+
+    <!-- Blog Start -->
+    <!-- Blog End -->
+
+
+    <!-- Footer Start -->
+    
+    <div class="container-fluid bg-dark text-white border-top py-4 px-sm-3 px-md-5" style="border-color: rgba(256, 256, 256, .1) !important;">
+        <div class="row">
+            <div class="col-lg-12 text-center mb-3 mb-md-0">
+                <p class="m-0 text-white-50">Copyright &copy; <a href="#">aru travels</a>. All Rights Reserved.</a>
+                </p>
+            </div>
+            
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="fa fa-angle-double-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
 </body>
 
 </html>
