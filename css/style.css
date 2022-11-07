@@ -1914,7 +1914,7 @@ pre code {
 
 .form-control::placeholder {
   color: #6c757d;
-  opacity: 1;
+  opacity: .5;
 }
 
 .form-control:disabled, .form-control[readonly] {
@@ -4025,13 +4025,7 @@ input[type="button"].btn-block {
   font-size: 1.25rem;
   line-height: inherit;
   white-space: nowrap;
-  width: 200px;
-}
-
-@media (max-width: 767.98px) { 
-  .navbar-brand {
-    width: 120px;
-  }
+  width: 110px;
 }
 
 .navbar-brand:hover, .navbar-brand:focus {
@@ -9519,7 +9513,7 @@ h6,
 }
 
 .navbar-light .navbar-nav .nav-link {
-  padding: 30px 15px;
+  padding: 15px;
   color: #212121;
   font-weight: 500;
   outline: none;
@@ -9774,4 +9768,18 @@ h6,
   margin: 0;
   padding: 0;
   list-style-type: none;
+}
+
+.btn-light.tag {
+  position: absolute;
+  top: -15px;
+}
+@media (max-width: 768px) {
+  .btn-light.tag {
+    position: static;
+  }
+}
+
+.flight-book-form label {
+  font-size: 12px;
 }

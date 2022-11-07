@@ -155,42 +155,148 @@
     <!-- Booking Start -->
     <div class="container-fluid booking mt-5 pb-5">
         <div class="container pb-5">
-            <div class="bg-light shadow" style="padding: 30px;">
+            <div class="bg-light shadow position-relative" style="padding: 30px;">
+                <button type="button" class="btn btn-light shadow tag"><i class="fa fa-plane"></i> Book International and Domestic Flights</button>
+                <div class="row align-items-center mt-2 mb-2 ml-2">
+                    <div class="form-check-inline">
+                        <label class="form-check-label">
+                          <input type="radio" class="form-check-input" name="optradio">Round Trip
+                        </label>
+                      </div>
+                      <div class="form-check-inline">
+                        <label class="form-check-label">
+                          <input type="radio" class="form-check-input" name="optradio">One Way
+                        </label>
+                      </div>
+                </div>
                 <div class="row align-items-center" style="min-height: 60px;">
-                    <div class="col-md-10">
-                        <div class="row">
-                            <div class="col-md-3">
+                    <div class="col-md-12">
+                        <div class="row flight-book-form">
+                            <div class="col-lg-3 col-md-4 col-sm-12">
                                 <div class="mb-3 mb-md-0">
+                                    <label class="my-1 mr-2" for=""> From Airport </label>
+                                    <div class="input-group mb-3">
+                                        <div class="input-group-prepend">
+                                          <span class="input-group-text"><i class="fa fa-globe" aria-hidden="true"></i></span>
+                                        </div>
                                     <select class="custom-select px-4" style="height: 47px;">
                                         <option selected>Destination</option>
                                         <option value="1">Destination 1</option>
                                         <option value="2">Destination 1</option>
                                         <option value="3">Destination 1</option>
                                     </select>
+                                    </div>
+                                </div>
+                            </div>                         
+                            <div class="col-lg-3 col-md-4 col-sm-12">
+                                <div class="mb-3 mb-md-0">
+                                    <label class="my-1 mr-2" for="">  To Airport  </label>
+                                    <div class="input-group mb-3">
+                                        <div class="input-group-prepend">
+                                          <span class="input-group-text"><i class="fa fa-globe" aria-hidden="true"></i></span>
+                                        </div>
+                                    <select class="custom-select px-4" style="height: 47px;">
+                                        <option selected>Destination</option>
+                                        <option value="1">Destination 1</option>
+                                        <option value="2">Destination 1</option>
+                                        <option value="3">Destination 1</option>
+                                    </select>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="col-md-3">
+                            <div class="col-lg-2 col-md-4 col-sm-12">
                                 <div class="mb-3 mb-md-0">
                                     <div class="date" id="date1" data-target-input="nearest">
-                                        <input type="text" class="form-control p-4 datetimepicker-input" placeholder="Depart Date" data-target="#date1" data-toggle="datetimepicker"/>
+                                        <label class="my-1 mr-2" for=""> Depart Date </label>
+                                        <div class="input-group mb-3">
+                                            <div class="input-group-prepend">
+                                              <span class="input-group-text"><i class="fa fa-calendar" aria-hidden="true"></i></span>
+                                            </div>
+                                            <input type="text" class="form-control pt-4 pb-4 datetimepicker-input" placeholder="01/01/2022" data-target="#date1" data-toggle="datetimepicker"/>
+                                          </div>
+                                        
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-3">
+                            <div class="col-lg-2 col-md-4 col-sm-12">
                                 <div class="mb-3 mb-md-0">
                                     <div class="date" id="date2" data-target-input="nearest">
-                                        <input type="text" class="form-control p-4 datetimepicker-input" placeholder="Return Date" data-target="#date2" data-toggle="datetimepicker"/>
+                                        <label class="my-1 mr-2" for=""> Return Date </label>
+                                        <div class="input-group mb-3">
+                                            <div class="input-group-prepend">
+                                              <span class="input-group-text"><i class="fa fa-calendar" aria-hidden="true"></i></span>
+                                            </div>
+                                        <input type="text" class="form-control pt-4 pb-4 datetimepicker-input" placeholder="01/01/2022" data-target="#date2" data-toggle="datetimepicker"/>
+                                    </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-3">
+                            <div class="col-lg-2 col-md-4 col-sm-12">
                                 <div class="mb-3 mb-md-0">
-                                    <select class="custom-select px-4" style="height: 47px;">
-                                        <option selected>Duration</option>
-                                        <option value="1">Duration 1</option>
-                                        <option value="2">Duration 1</option>
-                                        <option value="3">Duration 1</option>
+                                    <label class="my-1 mr-2" for="">Travel Class</label>
+                                    <div class="input-group mb-3">
+                                        <div class="input-group-prepend">
+                                          <span class="input-group-text"><i class="fa fa-user" aria-hidden="true"></i></span>
+                                        </div>
+                                    <select class="custom-select px-2" style="height: 47px;">
+                                        <option selected>Economy</option>
+                                        <option value="1">Business</option>
+                                        <option value="2">Premium Economy</option>
                                     </select>
+                                </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-md-4 col-sm-12">
+                                <div class="mb-3 mb-md-0">
+                                    <label class="my-1 mr-2" for="">Adults(12y+)</label>
+                                    <div class="input-group mb-3">
+                                        <div class="input-group-prepend">
+                                          <span class="input-group-text"><i class="fa fa-user" aria-hidden="true"></i></span>
+                                        </div>
+                                    <select class="custom-select px-2" style="height: 47px;">
+                                        <option selected>0</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                    </select>
+                                </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-md-4 col-sm-12">
+                                <div class="mb-3 mb-md-0">
+                                    <label class="my-1 mr-2" for="">Infants(below 2y)</label>
+                                    <div class="input-group mb-3">
+                                        <div class="input-group-prepend">
+                                          <span class="input-group-text"><i class="fa fa-user" aria-hidden="true"></i></span>
+                                        </div>
+                                    <select class="custom-select px-2" style="height: 47px;">
+                                        <option selected>0</option>
+                                        <option value="1">1</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                    </select>
+                                </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-md-4 col-sm-12">
+                                <div class="mb-3 mb-md-0">
+                                    <label class="my-1 mr-2" for="">Children(2y-12y)</label>
+                                    <div class="input-group mb-3">
+                                        <div class="input-group-prepend">
+                                          <span class="input-group-text"><i class="fa fa-child" aria-hidden="true"></i></span>
+                                        </div>
+                                    <select class="custom-select px-2" style="height: 47px;">
+                                        <option selected>0</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                    </select>
+                                </div>
                                 </div>
                             </div>
                         </div>
